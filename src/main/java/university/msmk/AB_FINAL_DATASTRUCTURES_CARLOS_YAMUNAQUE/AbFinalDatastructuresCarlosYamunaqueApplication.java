@@ -24,7 +24,7 @@ public class AbFinalDatastructuresCarlosYamunaqueApplication implements CommandL
 
         log.info("Hola");
         HashMap<Integer, String > jugadoresDeDender = new HashMap<>();
-        jugadoresDeDender.put(15,"Jokic");
+        JugadorNBA jugador15 = new JugadorNBA("Jokic", 20, 15);
         jugadoresDeDender.put(11,"Jokic");
         String NombreJugadorEncontrado = jugadoresDeDender.get(11);
         log.info("El jugador numero 11 es {}", NombreJugadorEncontrado);

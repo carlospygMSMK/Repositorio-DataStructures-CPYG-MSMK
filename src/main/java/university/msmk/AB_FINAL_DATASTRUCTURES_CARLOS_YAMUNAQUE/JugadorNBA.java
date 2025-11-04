@@ -12,7 +12,7 @@ public class JugadorNBA {
         this.Asistencias = asistencias;
     }
 
-    public String getNombre(){
+    public String getNombre(String nombre){
         return nombre;
     }
 }
